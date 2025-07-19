@@ -23,3 +23,9 @@ Simply open any HTML file in a modern web browser. All assets are linked with re
   1. Wireframing: Creating initial layouts and structure for the website.
   2. Documentation: Helping document the project and its features.
   3. Design Discussions: Collaborating on design choices to ensure an appealing and user-friendly interface.
+
+# Contact
+
+For inquiries, feedback, or collaboration:
+
+- Developer Email: sanspiya915@gmail.com
