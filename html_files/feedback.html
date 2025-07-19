@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timely</title>
+    <link rel="stylesheet" href="../css_files/style.css">
+    <style>
+        main {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-direction: column;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .form-box {
+            background-color: #ffffff;
+            box-shadow: 0 0 5px #343d35cc;
+            padding: 25px;
+            border-radius: 10px;
+            width: 430px;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        .radio-group {
+            display: inline-flex;
+            margin-bottom: 16px;
+        }
+
+        .radio-group label {
+            margin-left: 20px;
+            margin-right: 150px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-size: 18px;
+            color: #8e795b;
+            font-weight: 600;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 12px;
+            box-sizing: border-box;
+            border-radius: 8px;
+
+        }
+
+        button {
+            background-color: #827748;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            width: 50%;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #a2998c;
+            border: none;
+        }
+
+        main h1 {
+            color: #867964;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Creating a Navbar which contains Company-name, Home page, Blog Page, Product Page, Research Page, About us Page  -->
+        <div id="navBar">
+            <!-- Company Logo  -->
+            <div class="logo logo-flex">
+                <img src="../icons_images/hourglass.png" alt="hourglass-icon" class="hourglass-icon">
+                <a href="homepage.html" class="logo-second size">TIMELY</a>
+                <p class="trademark">&trade;</p>
+            </div>
+
+            <!-- Home Page  -->
+            <div class="home logo-flex">
+                <img src="../icons_images/home.png" alt="home-icon" class="icons">
+                <a href="homepage.html" class="navbar-content size">Home</a>
+            </div>
+
+            <!-- Blog Page  -->
+            <div class="blog logo-flex">
+                <img src="../icons_images/blog.png" alt="blog-icon" class="icons">
+                <a href="blogPage.html" class="navbar-content size">Blog</a>
+            </div>
+
+            <!-- Product Page  -->
+            <div class="Product logo-flex">
+                <img src="../icons_images/product.png" alt="product-icon" class="icons">
+                <a href="productPage.html" class="navbar-content size"> Product</a>
+            </div>
+
+            <!-- Research Page  -->
+            <div class="research logo-flex">
+                <img src="../icons_images/research.png" alt="research-icon" class="icons">
+                <a href="researchPage.html" class="navbar-content size">Research</a>
+            </div>
+
+            <!-- AboutUs Page  -->
+            <div class="aboutus logo-flex">
+                <img src="../icons_images/aboutus.png" alt="aboutus-icon" class="icons">
+                <a href="Aboutus.html" class="navbar-content size active">About Us</a>
+            </div>
+
+        </div>
+
+        <!-- As The navbar is given "position:fixed" it is removed from the flow. So a underdiv is created  -->
+        <div class="under-div"></div>        
+    </header>
+
+    <main>
+
+        <!-- Heading  -->
+        <h1>Give Us A Feedback!</h1>
+
+        <!-- Form Container  -->
+        <div class="form-box">
+            <form name="feedbackForm">
+
+                <!-- Name Section  -->
+                <label for="name">Name</label>
+                <input type="text" name="fname" id="name">
+
+                <!-- Email Section  -->
+                <label for="email">Email Address</label>
+                <input type="text" name="emails" id="email">
+
+                <!-- Phone No.  -->
+                <label for="phone">Phone No</label>
+                <input type="tel" name="phones" id="phone">
+
+                <!-- Satisfaction Question Section  -->
+                <label for="radio">Are you satisfied with our service?</label>
+
+                <div class="radio-group">
+                    <input type="radio" name="yn" id="yes" checked>
+                    <label for="yes">Yes</label>
+                    <input type="radio" name="yn" id="no">
+                    <label for="no">No</label>
+                </div>
+
+                <!-- Suggestion Feedback Section  -->
+                <label for="sug">Any Suggestions?</label>
+                <textarea name="suges" id="sug" rows="10" cols="30"></textarea>
+
+                <!-- submit button  -->
+                <button type="submit" onclick="validation()">Submit</button>
+            </form>
+        </div>
+
+    </main>
+    
+    <footer>
+        <!-- Creating a footer which contains Company-logo, Contact us, Quick Links, Social Media and Copyright Policy Section -->
+        <div class="container">
+
+            <!-- For Company Logo  -->
+            <div class="footer-content">
+                <div class="company-logo">
+                    <img src="../icons_images/hourglass-white.png" alt="company-logo" class="footer-company-logo" style="height:30px; width:20px;">
+                    <div class="company-logo-first">
+                        <h1 class="logo-content">TIMELY</h1>
+                        <p class="logo-content-trademark">&trade;</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Us Section  -->
+            <div class="footer-content">
+                <h3>Contact Us</h3>
+                <p>Email: Timely24@gmail.com</p>
+                <p>Phone: 01-5970012</p>
+                <p>Address: Kamalpokhari streets</p>
+            </div>
+
+            <!-- Quick Links  -->
+            <div class="footer-content">
+                <h3>Quick Links</h3>
+                <div class="links"><a href="homepage.html">Home</a></div>
+                <div class="links"><a href="blogPage.html">Blog</a></div>
+                <div class="links"><a href="productPage.html">Product</a></div>
+                <div class="links"><a href="researchPage.html">Research</a></div>
+                <div class="links"><a href="Aboutus.html">About Us</a></div>
+            </div>
+ 
+            <!-- Social Media Section  -->
+            <div class="footer-content">
+                <h3>Follow Us</h3>
+                <div class="socials">
+                    <a href="#"><img src="../icons_images/facebook.png" alt="fb-logo" class="footer-socials-icons"></a>
+                    <a href="#"><img src="../icons_images/instagram.png" alt="insta-logo" class="footer-socials-icons"></a>
+                    <a href="#"><img src="../icons_images/twitter.png" alt="twitter-logo" class="footer-socials-icons"></a>
+                    <a href="#"><img src="../icons_images/linkedin.png" alt="linkedin-logo" class="footer-socials-icons"></a>
+                </div>
+            </div>
+
+            <!-- Copyright of Company  -->
+            <div class="bottombar">
+                <p>&copy; 2025 Timely. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Creating a form validation Js  -->
+    <script>
+        function validation() {
+            let names = document.forms["feedbackForm"]["fname"].value;
+            let email = document.forms["feedbackForm"]["emails"].value;
+            let phone = document.forms["feedbackForm"]["phones"].value;
+            let message = document.forms["feedbackForm"]["suges"].value;
+    
+            if (names === "" || email === "" || phone === "" || message === "") {
+                alert("Empty fields found.");
+            } else {
+                alert("Thank you for the feedback.");
+            }
+        }
+    </script>
+</body>
+</html>

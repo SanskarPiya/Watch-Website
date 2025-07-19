@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page | Timely: View Our Remarkable Watches.</title>
+    <meta name="description" content="Hurry! Stunning watches on sale—limited stock. Grab your favorite style now and embrace timeless elegance!">
+    <meta name="author" content="Timely">
+    <meta name="keywords" content="luxury watches, exclusive watch sale, buy watches online, Timely, designer watches, men's watches, women's watches, digital watches, Sale">
+    <link rel="stylesheet" href="../css_files/style.css">
+    <style>
+         /* For product panel */
+        .product-panel{
+            text-align:center;
+            font-size:19px;
+            padding-top:5px;
+            padding-bottom:5px;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        /* Aligning Product-container in center  */
+        .all-product-container{
+            display:flex;
+            justify-content:center;
+            padding-bottom:90px;
+        }
+
+        /*Using Flexbox to align products equally throughout the page*/
+        .product-container{
+            display:flex;
+            justify-content:space-evenly;
+            flex-wrap:wrap;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Creating a Navbar which contains Company-name, Home page, Blog Page, Product Page, Research Page, About us Page  -->
+        <div id="navBar">
+            <!-- Company Logo  -->
+            <div class="logo logo-flex">
+                <img src="../icons_images/hourglass.png" alt="hourglass-icon" class="hourglass-icon">
+                <a href="homepage.html" class="logo-second size">TIMELY</a>
+                <p class="trademark">&trade;</p>
+            </div>
+
+            <!-- Home Page  -->
+            <div class="home logo-flex">
+                <img src="../icons_images/home.png" alt="home-icon" class="icons">
+                <a href="homepage.html" class="navbar-content size">Home</a>
+            </div>
+
+            <!-- Blog Page  -->
+            <div class="blog logo-flex">
+                <img src="../icons_images/blog.png" alt="blog-icon" class="icons">
+                <a href="blogPage.html" class="navbar-content size">Blog</a>
+            </div>
+
+            <!-- Product Page  -->
+            <div class="Product logo-flex">
+                <img src="../icons_images/product.png" alt="product-icon" class="icons">
+                <a href="productPage.html" class="navbar-content size active"> Product</a>
+            </div>
+
+            <!-- Research Page  -->
+            <div class="research logo-flex">
+                <img src="../icons_images/research.png" alt="research-icon" class="icons">
+                <a href="researchPage.html" class="navbar-content size">Research</a>
+            </div>
+
+            <!-- AboutUs Page  -->
+            <div class="aboutus logo-flex">
+                <img src="../icons_images/aboutus.png" alt="aboutus-icon" class="icons">
+                <a href="Aboutus.html" class="navbar-content size">About Us</a>
+            </div>
+
+        </div>
+
+        <!-- As The navbar is given "position:fixed" it is removed from the flow. So a underdiv is created  -->
+        <div class="under-div"></div>        
+    </header>
+    
+    <main>
+
+        <!-- Announcement Panel  -->
+        <div class="product-panel" style="background-color:#534B52; color:white;">
+            Cash on Delivery Available All Over Nepal | Free Home Delivery
+        </div>
+        
+        <!-- Watches Container  -->
+        <div class="all-product-container">
+            <div class="product-container" style="width:80%; height:auto;">
+
+                <!-- Watch 1  -->
+                <div class="product">
+                    <div class="product-discount-container"><p>-20%</p></div>
+                    <img src="../Images/product1.jpg" alt="product-image" class="product-image">
+                    <div class="product-details">
+                        <div class="product-category">Men's Watch</div>
+                        <h3 class="product-name">Series Astamangal(Blue) -42 mm Men Watch</h3>
+                        <div class="product-price">
+                            <div class="product-old-price">Rs.14,990</div>
+                            <div class="product-new-price">Rs.11,990</div>
+                        </div>
+                        <a class="product-button" href="productdetails1.html">Select Options</a>
+                    </div>
+                </div>
+
+                <!-- Watch 2  -->
+                <div class="product">
+                    <div class="product-discount-container"><p>-20%</p></div>
+                    <img src="../Images/product2.jpg" alt="product-image" class="product-image">
+                    <div class="product-details">
+                        <div class="product-category">Men's Watch</div>
+                        <h3 class="product-name">Series Brihaspati -42 mm Men Watch</h3>
+                        <div class="product-price">
+                            <div class="product-old-price">Rs.15,000</div>
+                            <div class="product-new-price">Rs.12,000</div>
+                        </div>
+                        <a class="product-button">Select Options</a>
+                    </div>
+                </div>
+
+                <!-- Watch 3  -->
+                <div class="product">
+                    <img src="../Images/product3.jpg" alt="product-image" class="product-image">
+                    <div class="product-details">
+                        <div class="product-category">Men's Watch</div>
+                        <h3 class="product-name">Series Kasthamandap -42 mm Watch</h3>
+                        <div class="product-price">
+                            <div class="product-new-price">Rs.6990</div>
+                        </div>
+                        <a class="product-button">Select Options</a>
+                    </div>
+                </div>
+
+                <!-- Watch 4  -->
+                <div class="product">
+                    <img src="../Images/product4.jpg" alt="product-image" class="product-image">
+                    <div class="product-details">
+                        <div class="product-category">Men's Watch</div>
+                        <h3 class="product-name">Series Mandala(Ganesh) -42 mm Watch</h3>
+                        <div class="product-price">
+                            <div class="product-new-price">Rs.5990</div>
+                        </div>
+                        <a class="product-button">Select Options</a>
+                    </div>
+                </div>
+
+                <!-- Watch 5  -->
+                <div class="product">
+                    <img src="../Images/product5.jpg" alt="product-image" class="product-image">
+                    <div class="product-details">
+                        <div class="product-category">Women's Watch</div>
+                        <h3 class="product-name">Series Brihaspati -42 mm Men Watch</h3>
+                        <div class="product-price">
+                            <div class="product-new-price">Rs.11,990</div>
+                        </div>
+                        <a class="product-button">Select Options</a>
+                    </div>
+                </div>
+
+                <!-- Watch 6  -->
+                <div class="product">
+                    <img src="../Images/product6.jpg" alt="product-image" class="product-image">
+                    <div class="product-details">
+                        <div class="product-category">Women's Watch</div>
+                        <h3 class="product-name">Series Hiranya - 34mm Lady Watch</h3>
+                        <div class="product-price">
+                            <div class="product-new-price">Rs.10,990</div>
+                        </div>
+                        <a class="product-button">Select Options</a>
+                    </div>
+                </div>
+
+                <!-- Watch 7 -->
+                <div class="product">
+                    <img src="../Images/product7.jpg" alt="product-image" class="product-image">
+                    <div class="product-details">
+                        <div class="product-category">Women's Watch</div>
+                        <h3 class="product-name">Series Kasthamandap -36 mm Women Watch</h3>
+                        <div class="product-price">
+                            <div class="product-new-price">Rs.15,990</div>
+                        </div>
+                        <a class="product-button">Select Options</a>
+                    </div>
+                </div>
+
+                <!-- Watch 8  -->
+                <div class="product">
+                    <img src="../Images/product8.jpg" alt="product-image" class="product-image">
+                    <div class="product-details">
+                        <div class="product-category">Women's Watch</div>
+                        <h3 class="product-name">Series Mandala Ganesh -34mm Women Watch</h3>
+                        <div class="product-price">
+                            <div class="product-new-price">Rs.7990</div>
+                        </div>
+                        <a class="product-button">Select Options</a>
+                    </div>
+                </div>
+
+                 <!-- Watch 9  -->
+                <div class="product">
+                    <img src="../Images/product9.jpg" alt="product-image" class="product-image">
+                    <div class="product-details">
+                        <div class="product-category">Customizable Watch</div>
+                        <h3 class="product-name"></h3>
+                        <div class="product-price">
+                            <div class="product-new-price">Rs.5990</div>
+                        </div>
+                        <a class="product-button">Select Options</a>
+                    </div>
+                </div>
+                
+                 <!-- Watch 10  -->
+                <div class="product">
+                    <img src="../Images/product10.jpg" alt="product-image" class="product-image">
+                    <div class="product-details">
+                        <div class="product-category">Customizable Watch</div>
+                        <h3 class="product-name"></h3>
+                        <div class="product-price">
+                            <div class="product-new-price">Rs.5990</div>
+                        </div>
+                        <a class="product-button">Select Options</a>
+                    </div>
+                </div>
+
+                 <!-- Watch 11  -->
+                <div class="product">
+                    <img src="../Images/product11.jpg" alt="product-image" class="product-image">
+                    <div class="product-details">
+                        <div class="product-category">Customizable Watch</div>
+                        <h3 class="product-name"></h3>
+                        <div class="product-price">
+                            <div class="product-new-price">Rs.5990</div>
+                        </div>
+                        <a class="product-button">Select Options</a> 
+                    </div>
+                </div>
+
+                 <!-- Watch 12  -->
+                <div class="product">
+                    <img src="../Images/product17.png" alt="product-image" class="product-image">
+                    <div class="product-details">
+                        <div class="product-category">Digital Watch</div>
+                        <h3 class="product-name"></h3>
+                        <div class="product-price">
+                            <div class="product-new-price">Rs.6990</div>
+                        </div>
+                        <a class="product-button">Select Options</a>
+                    </div>
+                </div>
+
+                 <!-- Watch 13 -->
+                <div class="product">
+                    <img src="../Images/product13.jpg" alt="product-image" class="product-image">
+                    <div class="product-details">
+                        <div class="product-category">Men's Watch</div>
+                        <h3 class="product-name">Series Classical -42 mm Men Watch</h3>
+                        <div class="product-price">
+                            <div class="product-new-price">Rs.8990</div>
+                        </div>
+                        <a class="product-button" href="productdetails2.html">Select Options</a>
+                    </div>
+                </div>
+
+                 <!-- Watch 14  -->
+                <div class="product">
+                        <img src="../Images/product14.jpg" alt="product-image" class="product-image">
+                        <div class="product-details">
+                            <div class="product-category">Men's Watch</div>
+                            <h3 class="product-name">Series Rocks -42 mm Men Watch</h3>
+                            <div class="product-price">
+                                <div class="product-new-price">Rs.8990</div>
+                            </div>
+                            <a class="product-button">Select Options</a>
+                        </div>
+                </div>
+
+                 <!-- Watch 15  -->
+                <div class="product">
+                        <img src="../Images/product15.jpg" alt="product-image" class="product-image">
+                        <div class="product-details">
+                            <div class="product-category">Unisex Watch</div>
+                            <h3 class="product-name">Series Black -42 mm  Unisex Watch</h3>
+                            <div class="product-price">
+                                <div class="product-new-price">Rs.8990</div>
+                            </div>
+                            <a class="product-button">Select Options</a>
+                        </div>
+                </div>
+
+                 <!-- Watch 16  -->
+                <div class="product">
+                        <img src="../Images/product16.jpg" alt="product-image" class="product-image">
+                        <div class="product-details">
+                            <div class="product-category">Men's Watch</div>
+                            <h3 class="product-name">Series Mandala (Om Namah Shivaya) -36 mm Watch</h3>
+                            <div class="product-price">
+                                <div class="product-new-price">Rs.8990</div>
+                            </div>
+                            <a class="product-button">Select Options</a>
+                        </div>
+                </div>
+
+            </div>
+        </div>
+
+         <!-- Product Trust Panel  -->
+         <div class="product-trust">
+            <div class="product-trust-since">
+                <img src="../icons_images/trust.png" alt="trust-logo" class="trust-logo">
+                <p>Trusted <b>since 2006</b></p>
+            </div>
+            <div class="product-trust-since">
+                <img src="../icons_images/trust.png" alt="trust-logo" class="trust-logo"> 
+                <p><b>10000+</b> Five Star Review</p>   
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <!-- Creating a footer which contains Company-logo, Contact us, Quick Links, Social Media and Copyright Policy Section -->
+        <div class="container">
+
+            <!-- For Company Logo  -->
+            <div class="footer-content">
+                <div class="company-logo">
+                    <img src="../icons_images/hourglass-white.png" alt="company-logo" class="footer-company-logo" style="height:30px; width:20px;">
+                    <div class="company-logo-first">
+                        <h1 class="logo-content">TIMELY</h1>
+                        <p class="logo-content-trademark">&trade;</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Us Section  -->
+            <div class="footer-content">
+                <h3>Contact Us</h3>
+                <p>Email: Timely24@gmail.com</p>
+                <p>Phone: 01-5970012</p>
+                <p>Address: Kamalpokhari streets</p>
+            </div>
+
+            <!-- Quick Links  -->
+            <div class="footer-content">
+                <h3>Quick Links</h3>
+                <div class="links"><a href="homepage.html">Home</a></div>
+                <div class="links"><a href="blogPage.html">Blog</a></div>
+                <div class="links"><a href="productPage.html">Product</a></div>
+                <div class="links"><a href="researchPage.html">Research</a></div>
+                <div class="links"><a href="Aboutus.html">About Us</a></div>
+            </div>
+ 
+            <!-- Social Media Section  -->
+            <div class="footer-content">
+                <h3>Follow Us</h3>
+                <div class="socials">
+                    <a href="#"><img src="../icons_images/facebook.png" alt="fb-logo" class="footer-socials-icons"></a>
+                    <a href="#"><img src="../icons_images/instagram.png" alt="insta-logo" class="footer-socials-icons"></a>
+                    <a href="#"><img src="../icons_images/twitter.png" alt="twitter-logo" class="footer-socials-icons"></a>
+                    <a href="#"><img src="../icons_images/linkedin.png" alt="linkedin-logo" class="footer-socials-icons"></a>
+                </div>
+            </div>
+
+            <!-- Copyright of Company  -->
+            <div class="bottombar">
+                <p>&copy; 2025 Timely. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Page | Timely: Impact of technology.</title>
+    <meta name="description" content="Know the Impact of technology in the present world.">
+    <meta name="author" content="Timely">
+    <meta name="keywords" content="Technology Impact , Changing the world">
+    <link rel="stylesheet" href="../css_files/style.css">
+    <style>
+        .blog-content{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+        }
+
+        .blog-content p{
+            background-color:white;
+            width:77%;
+            text-align:center;
+            font-size:30px;
+            padding-top:20px;
+            padding-bottom:20px;
+            border-radius:10px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .blogs img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+
+        .blogs {
+            background-color: white;
+            margin: 0 auto;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            height: 470px;
+            max-width: 75%;
+            padding:15px;
+            border-radius:10px;
+        }
+
+        /* Adding box shadow on hover effect  */
+        .blogs:hover{
+            box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.8);
+        }
+
+        /* Decorating Blog texts  */
+        .blogs-text {
+            padding: 10px;
+            text-align:center;
+        }
+
+        .blogs-text p{
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .blogs-text h2 {
+            padding-bottom: 15px;
+            text-align:center;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Creating a Navbar which contains Company-name, Home page, Blog Page, Product Page, Research Page, About us Page  -->
+        <div id="navBar">
+            <!-- Company Logo  -->
+            <div class="logo logo-flex">
+                <img src="../icons_images/hourglass.png" alt="hourglass-icon" class="hourglass-icon">
+                <a href="homepage.html" class="logo-second size">TIMELY</a>
+                <p class="trademark">&trade;</p>
+            </div>
+
+            <!-- Home Page  -->
+            <div class="home logo-flex">
+                <img src="../icons_images/home.png" alt="home-icon" class="icons">
+                <a href="homepage.html" class="navbar-content size">Home</a>
+            </div>
+
+            <!-- Blog Page  -->
+            <div class="blog logo-flex">
+                <img src="../icons_images/blog.png" alt="blog-icon" class="icons">
+                <a href="blogPage.html" class="navbar-content size active">Blog</a>
+            </div>
+
+            <!-- Product Page  -->
+            <div class="Product logo-flex">
+                <img src="../icons_images/product.png" alt="product-icon" class="icons">
+                <a href="productPage.html" class="navbar-content size"> Product</a>
+            </div>
+
+            <!-- Research Page  -->
+            <div class="research logo-flex">
+                <img src="../icons_images/research.png" alt="research-icon" class="icons">
+                <a href="researchPage.html" class="navbar-content size">Research</a>
+            </div>
+
+            <!-- AboutUs Page  -->
+            <div class="aboutus logo-flex">
+                <img src="../icons_images/aboutus.png" alt="aboutus-icon" class="icons">
+                <a href="Aboutus.html" class="navbar-content size">About Us</a>
+            </div>
+
+        </div>
+
+        <!-- As The navbar is given "position:fixed" it is removed from the flow. So a underdiv is created  -->
+        <div class="under-div"></div>        
+    </header>
+
+    <main>
+
+        <!-- Hero Section of Blog Page  -->
+        <div class="blog-hero-section">
+            <img src="../Images/blog-image.jpg" alt = "blog-image" class="blog-hero-image">
+            <h1 class="blog-hero-content">BLOGS</h1>
+            <p class="blog-quote1">"The present time has one advantage over every other - it is our own"</p>
+            <p class="blog-quote2">-CHARLES CALEB COLTON</p>
+            <img src="../icons_images/heart.png" class="heart-image">
+        </div>
+
+        <!-- Excitement Question  -->
+        <div class="blog-content">
+            <p style="color:green; text-decoration:underline;">Technology Is Shaping The World. Wanna Know How?</p>
+        </div>
+
+        <!-- Creating a table tag to include Four topics of Blog   -->
+        <table style="margin: 80px;">
+            <tr>
+                <td>
+                    <!-- Blog First  -->
+                    <div class="blogs">
+                        <a href="../html_files/blog1.html" style="text-decoration: none; color:black;">
+                            <img src="../Images/blog1.jpg" alt="Blog1-image" class="blogs-img">
+                            <div class="blogs-text">
+                                <h2>Impact of Technology on Consumer Trends in Watch Industry</h2>
+                                <p>The advancement of modern technology has caused changes in every aspect of our life. With
+                                    brand new innovations that were believed to be impossible, every industry has seen major
+                                    evolution in their product standards and as well as the expectations and trends of their
+                                    consumers. <a href="../html_files/blog1.html" style="text-decoration: none;">Read more</a></p>
+                            </div>
+                        </a>
+                    </div>
+                </td>
+                <td>
+                    <!-- Blog Second  -->
+                    <div class="blogs">
+                        <a href="../html_files/blog2.html" style="text-decoration: none; color:black;">
+                            <img src="../Images/blog2.jpg" alt="blog2-image" class="blogs-img">
+                            <div class="blogs-text">
+                                <h2>Impact of Technology on Watch Design</h2>
+                                <p>With the advancement of technology, the way the watches have been designed has been
+                                    revolutionized. With the change in aesthetics, to advance materials that can be only
+                                    manufactured using latest technology to change in their functionality. <a
+                                        href="../html_files/blog2.html" style="text-decoration: none;">Read more</a>
+                                </p>
+                            </div>
+                       </a> 
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <!-- Blog Third  -->
+                    <div class="blogs">
+                        <a href="../html_files/blog3.html" style="text-decoration: none; color:black;">
+                            <img src="../Images/blog3.png" alt="blog3-image" class="blogs-img">
+                            <div class="blogs-text">
+                                <h2>Impact of Technology Advancement in Watch Industry</h2>
+                                <p>With the integration of modern technology, watch industry has evolved into a completely
+                                    new industry with new practices, trends and consumer demands. It has had many positive
+                                    impacts on industry along with many negative impacts. <a
+                                        href="../html_files/blog3.html" style="text-decoration: none;">Read more</a>
+                                </p>
+                            </div>
+                        </a>   
+                    </div>
+                </td>
+                <td>
+                    <!-- Blog Fourth  -->
+                    <div class="blogs">
+                        <a href="../html_files/blog4.html" style="text-decoration: none; color:black;">
+                            <img src="../Images/blog4.jpg" alt="blog4-image" class="blogs-img">
+                            <div class="blogs-text">
+                                <h2>Difference in Smart Watches and Traditional Watches</h2>
+                                <p>In recent few years after the surge of popularity of smart watches there has been a
+                                    debate between consumers of smart watches and consumer of traditional watches on which
+                                    type of watch is better. Both types of watches have their own pros and cons. <a
+                                        href="../html_files/blog4.html" style="text-decoration: none;">Read more</a>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </main>
+
+    <footer>
+        <!-- Creating a footer which contains Company-logo, Contact us, Quick Links, Social Media and Copyright Policy Section -->
+        <div class="container">
+
+            <!-- For Company Logo  -->
+            <div class="footer-content">
+                <div class="company-logo">
+                    <img src="../icons_images/hourglass-white.png" alt="company-logo" class="footer-company-logo" style="height:30px; width:20px;">
+                    <div class="company-logo-first">
+                        <h1 class="logo-content">TIMELY</h1>
+                        <p class="logo-content-trademark">&trade;</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Us Section  -->
+            <div class="footer-content">
+                <h3>Contact Us</h3>
+                <p>Email: Timely24@gmail.com</p>
+                <p>Phone: 01-5970012</p>
+                <p>Address: Kamalpokhari streets</p>
+            </div>
+
+            <!-- Quick Links  -->
+            <div class="footer-content">
+                <h3>Quick Links</h3>
+                <div class="links"><a href="homepage.html">Home</a></div>
+                <div class="links"><a href="blogPage.html">Blog</a></div>
+                <div class="links"><a href="productPage.html">Product</a></div>
+                <div class="links"><a href="researchPage.html">Research</a></div>
+                <div class="links"><a href="Aboutus.html">About Us</a></div>
+            </div>
+ 
+            <!-- Social Media Section  -->
+            <div class="footer-content">
+                <h3>Follow Us</h3>
+                <div class="socials">
+                    <a href="#"><img src="../icons_images/facebook.png" alt="fb-logo" class="footer-socials-icons"></a>
+                    <a href="#"><img src="../icons_images/instagram.png" alt="insta-logo" class="footer-socials-icons"></a>
+                    <a href="#"><img src="../icons_images/twitter.png" alt="twitter-logo" class="footer-socials-icons"></a>
+                    <a href="#"><img src="../icons_images/linkedin.png" alt="linkedin-logo" class="footer-socials-icons"></a>
+                </div>
+            </div>
+
+            <!-- Copyright of Company  -->
+            <div class="bottombar">
+                <p>&copy; 2025 Timely. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

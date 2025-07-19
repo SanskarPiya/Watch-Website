@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Page | Timely: Impact of technology.</title>
+    <meta name="description" content="Know the Impact of technology in the present world.">
+    <meta name="author" content="Timely">
+    <meta name="keywords" content="Technology Impact , Changing the world">
+    <link rel="stylesheet" href="../css_files/style.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        main {
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            padding: 20px;
+        }
+
+        .left-column {
+            margin-left: 7%;
+            float: left;
+            width: 60%;
+        }
+
+        .right-column {
+            margin-right: 7%;
+            float: right;
+            width: 25%;
+            padding-left: 20px;
+        }
+
+        .right-column a {
+            text-decoration: none;
+            color: #4671c1;
+        }
+
+        .blog-img {
+            width: 100%;
+            height: 450px;
+            object-fit: cover;
+            padding: 25px 0px 25px 0px;
+        }
+
+        .card {
+            background-color: #f1f1f1;
+            padding: 30px;
+            margin: 20px;
+        }
+
+        h2 {
+            padding-bottom: 10px;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <!-- Creating a Navbar which contains Company-name, Home page, Blog Page, Product Page, Research Page, About us Page  -->
+        <div id="navBar">
+            <!-- Company Logo  -->
+            <div class="logo logo-flex">
+                <img src="../icons_images/hourglass.png" alt="hourglass-icon" class="hourglass-icon">
+                <a href="homepage.html" class="logo-second size">TIMELY</a>
+                <p class="trademark">&trade;</p>
+            </div>
+
+            <!-- Home Page  -->
+            <div class="home logo-flex">
+                <img src="../icons_images/home.png" alt="home-icon" class="icons">
+                <a href="homepage.html" class="navbar-content size">Home</a>
+            </div>
+
+            <!-- Blog Page  -->
+            <div class="blog logo-flex">
+                <img src="../icons_images/blog.png" alt="blog-icon" class="icons">
+                <a href="blogPage.html" class="navbar-content size active">Blog</a>
+            </div>
+
+            <!-- Product Page  -->
+            <div class="Product logo-flex">
+                <img src="../icons_images/product.png" alt="product-icon" class="icons">
+                <a href="productPage.html" class="navbar-content size"> Product</a>
+            </div>
+
+            <!-- Research Page  -->
+            <div class="research logo-flex">
+                <img src="../icons_images/research.png" alt="research-icon" class="icons">
+                <a href="researchPage.html" class="navbar-content size">Research</a>
+            </div>
+
+            <!-- AboutUs Page  -->
+            <div class="aboutus logo-flex">
+                <img src="../icons_images/aboutus.png" alt="aboutus-icon" class="icons">
+                <a href="Aboutus.html" class="navbar-content size">About Us</a>
+            </div>
+
+        </div>
+
+        <!-- As The navbar is given "position:fixed" it is removed from the flow. So a underdiv is created  -->
+        <div class="under-div"></div>        
+    </header>
+
+    <main>
+        <!-- Container of every contents of blog -->
+        <div class="row">
+
+            <!-- left-column of blog section  -->
+            <div class="left-column">
+
+                <!-- Blog description  -->
+                <div class="card">
+                    <h2 id="b1">Smart Watch vs Traditional Watch</h2>
+                    <h5>Jan 12, 2025</h5>
+                    <img src="../Images/blog4.jpg" alt="" class="blog-img">
+                    <p> In recent few years after the surge of popularity of smart watches there has been a debate
+                        between consumers of smart watches and consumer of traditional watches on which type of watch is
+                        better. Both types of watches have their own pros and cons. We can compare these two in
+                        following categories: <br><br>
+                    <ol style="padding-left: 20px;">
+                        <li><b>Functionality</b> <br>
+                            Smart watches are meant to be full of features that make the users life easier. Features
+                            such as syncing with your phone, GPS, sleep monitor, etc. Traditional watches mean while
+                            performing
+                            their simple task of telling time only.</li>
+                        <li><b>Durability and water resistance </b><br>
+                            In the context of durability and water resistance, traditional watches are far superior to
+                            that of smartwatches. There mechanical body can take more punishment than smartwatches and
+                            their
+                            electronic components.</li>
+                        <li><b>Craftmanship and elegance </b><br>
+                            Again, traditional watches triumph over smartwatches in terms of their craftmanship.
+                            Traditional watch making is an art with long history especially luxury watches.</li>
+                        <li><b>Cost </b><br>
+                            The price range of traditional watches is a large range. You can buy one for 10$ and then
+                            buy
+                            another one for 100,000$. Whereas smartwatches are found in the range of 200$-700$.</li><br><br>
+                    </ol>
+                    In the end, it's ones preference for which type of watch they want. If one only wants a watch
+                    and not extra features, traditional watch will be the best option. If one needs to track their
+                    steps or their exercise then smartwatches are the better option. Ultimately, it's their
+                    lifestyle that determines the watch best for them. <br><br>
+                    </p>
+                </div>
+            </div>
+
+            <!-- Right Column of Blog Section  -->
+            <div class="right-column">
+
+                <!-- more topics Section  -->
+                <div class="card">
+                    <h2>More Topics</h2><br>
+                    <a href="../html_files/blog1.html">Impact of Technology on Consumer Trends in Watch
+                        Industry</a><br><br>
+                    <a href="../html_files/blog2.html">Impact of Technology on Watch Design</a><br><br>
+                    <a href="../html_files/blog3.html">Impact of Technology Advancement in Watch Industry</a><br><br>
+                    <a href="../html_files/blog4.html">Smart Watch vs Traditional Watch</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <!-- Creating a footer which contains Company-logo, Contact us, Quick Links, Social Media and Copyright Policy Section -->
+        <div class="container">
+
+            <!-- For Company Logo  -->
+            <div class="footer-content">
+                <div class="company-logo">
+                    <img src="../icons_images/hourglass-white.png" alt="company-logo" class="footer-company-logo" style="height:30px; width:20px;">
+                    <div class="company-logo-first">
+                        <h1 class="logo-content">TIMELY</h1>
+                        <p class="logo-content-trademark">&trade;</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Us Section  -->
+            <div class="footer-content">
+                <h3>Contact Us</h3>
+                <p>Email: Timely24@gmail.com</p>
+                <p>Phone: 01-5970012</p>
+                <p>Address: Kamalpokhari streets</p>
+            </div>
+
+            <!-- Quick Links  -->
+            <div class="footer-content">
+                <h3>Quick Links</h3>
+                <div class="links"><a href="homepage.html">Home</a></div>
+                <div class="links"><a href="blogPage.html">Blog</a></div>
+                <div class="links"><a href="productPage.html">Product</a></div>
+                <div class="links"><a href="researchPage.html">Research</a></div>
+                <div class="links"><a href="Aboutus.html">About Us</a></div>
+            </div>
+ 
+            <!-- Social Media Section  -->
+            <div class="footer-content">
+                <h3>Follow Us</h3>
+                <div class="socials">
+                    <a href="#"><img src="../icons_images/facebook.png" alt="fb-logo" class="footer-socials-icons"></a>
+                    <a href="#"><img src="../icons_images/instagram.png" alt="insta-logo" class="footer-socials-icons"></a>
+                    <a href="#"><img src="../icons_images/twitter.png" alt="twitter-logo" class="footer-socials-icons"></a>
+                    <a href="#"><img src="../icons_images/linkedin.png" alt="linkedin-logo" class="footer-socials-icons"></a>
+                </div>
+            </div>
+
+            <!-- Copyright of Company  -->
+            <div class="bottombar">
+                <p>&copy; 2025 Timely. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

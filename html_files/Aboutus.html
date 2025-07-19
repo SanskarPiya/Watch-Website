@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us | Meet the Team.</title>
+    <meta
+      name="description"
+      content="Meet the talented team behind timely watches. Know the makers who were involved in creating this e-commerce watch website."
+    />
+    <meta name="author" content="Timely" />
+    <meta
+      name="keywords"
+      content="Timely, Team, Group, Leaders, CV, Websites Creators"
+    />
+    <link rel="stylesheet" href="../css_files/style.css" />
+    <style>
+      .image-container {
+        text-align: center;
+      }
+
+      .about-company-container {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .about-company {
+        margin-top: 40px;
+        width: 42%;
+        text-align: center;
+        padding: 30px;
+        background-color: white;
+        border-radius: 15px;
+      }
+
+      .about-company h2 {
+        font-family: Georgia, "Times New Roman", Times, serif;
+        color: rgb(72, 72, 72);
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+
+      .about-company p {
+        color: grey;
+        font-size: 16px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        margin-top: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+
+      .meet-our-team {
+        width: 75%;
+        text-align: center;
+        margin-top: 70px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 15px;
+        font-family: Georgia, "Times New Roman", Times, serif;
+      }
+
+      .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        text-align: center;
+        background-color: #f1f1f1;
+        width: 310px;
+      }
+
+      .card:hover {
+        box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.8);
+      }
+
+      .card img {
+        height: 400px;
+        object-fit: cover;
+      }
+
+      .card-text {
+        padding: 20px;
+      }
+
+      .card-container {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 39px;
+        padding: 20px;
+      }
+
+      .feedback-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .feedback {
+        background-color: white;
+        width: 75%;
+        text-align: center;
+        margin-top: 70px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-radius: 15px;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        color: rgb(72, 72, 72);
+      }
+
+      .feedback-button-container {
+        background-color: rgb(181, 118, 81);
+        width: 10%;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 70px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        border-radius: 20px;
+      }
+
+      .feedback-button-container:hover {
+        background-color: rgb(158, 106, 76);
+      }
+
+      .feedback-button-container a {
+        color: white;
+        font-size: 18px;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        text-decoration: none;
+        text-transform: capitalize;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <!-- Creating a Navbar which contains Company-name, Home page, Blog Page, Product Page, Research Page, About us Page  -->
+      <div id="navBar">
+        <!-- Company Logo  -->
+        <div class="logo logo-flex">
+          <img
+            src="../icons_images/hourglass.png"
+            alt="hourglass-icon"
+            class="hourglass-icon"
+          />
+          <a href="homepage.html" class="logo-second size">TIMELY</a>
+          <p class="trademark">&trade;</p>
+        </div>
+
+        <!-- Home Page  -->
+        <div class="home logo-flex">
+          <img src="../icons_images/home.png" alt="home-icon" class="icons" />
+          <a href="homepage.html" class="navbar-content size">Home</a>
+        </div>
+
+        <!-- Blog Page  -->
+        <div class="blog logo-flex">
+          <img src="../icons_images/blog.png" alt="blog-icon" class="icons" />
+          <a href="blogPage.html" class="navbar-content size">Blog</a>
+        </div>
+
+        <!-- Product Page  -->
+        <div class="Product logo-flex">
+          <img
+            src="../icons_images/product.png"
+            alt="product-icon"
+            class="icons"
+          />
+          <a href="productPage.html" class="navbar-content size"> Product</a>
+        </div>
+
+        <!-- Research Page  -->
+        <div class="research logo-flex">
+          <img
+            src="../icons_images/research.png"
+            alt="research-icon"
+            class="icons"
+          />
+          <a href="researchPage.html" class="navbar-content size">Research</a>
+        </div>
+
+        <!-- AboutUs Page  -->
+        <div class="aboutus logo-flex">
+          <img
+            src="../icons_images/aboutus.png"
+            alt="aboutus-icon"
+            class="icons"
+          />
+          <a href="Aboutus.html" class="navbar-content size active">About Us</a>
+        </div>
+      </div>
+
+      <!-- As The navbar is given "position:fixed" it is removed from the flow. So a underdiv is created  -->
+      <div class="under-div"></div>
+    </header>
+
+    <main>
+      <!-- Hero Section Of Aboutus Page  -->
+      <div class="image-container" style="color: #ffffff">
+        <img
+          src="../Images/aboutus3.jpg"
+          alt="Watch"
+          class="aboutus-hero-image"
+        />
+        <div class="image-text">
+          <p class="aboutus-hero-content-first">Our Story</p>
+          <p class="aboutus-hero-content-second">About us</p>
+        </div>
+        <div class="team-quotes">
+          <p class="team-quote-first">
+            "It's better to have a great team than a team of greats"
+          </p>
+          <p class="team-quote-second">-Simon Sinek</p>
+        </div>
+      </div>
+
+      <!-- Company Description  -->
+      <div class="about-company-container">
+        <div class="about-company">
+          <h2>About The Timely Company</h2>
+          <p>
+            The Timely Company is more than a destination for luxury timepieces
+            and fine jewelry; it celebrates craftsmanship, tradition, and
+            community. Rooted in the legacy of renowned industry pioneers, we
+            blend expertise and heritage to set a new benchmark for collectors,
+            offering an unmatched experience that honors the artistry behind
+            every piece.
+          </p>
+        </div>
+
+        <div
+          class="meet-our-team"
+          style="color: rgb(72, 72, 72); background-color: white"
+        >
+          <h2>Meet Our Team</h2>
+        </div>
+      </div>
+
+      <!-- Each Team member portfolio  -->
+      <div class="card-container">
+        <!-- Sanskar Piya Description -->
+        <div class="card">
+          <img
+            src="../Images/Sanskar.jpeg"
+            alt="Sanskar's Picture"
+            style="width: 100%"
+          />
+          <div class="card-text">
+            <h3><b>Sanskar Piya</b></h3>
+          </div>
+        </div>
+
+        <!-- Sabrina Pradhan Description -->
+        <div class="card">
+          <img
+            src="../Images/Sabrina.jpeg"
+            alt="Sabrina's Picture"
+            style="width: 100%"
+          />
+          <div class="card-text">
+            <h3><b>Sabrina Pradhan</b></h3>
+          </div>
+        </div>
+
+        <!-- Sahil Shrestha Description -->
+        <div class="card">
+          <img
+            src="../Images/Sahil.jpeg"
+            alt="Sahil's Picture"
+            style="width: 100%"
+          />
+          <div class="card-text">
+            <h3><b>Sahil Shrestha</b></h3>
+          </div>
+        </div>
+
+        <!-- Tanisha Singh Description -->
+        <div class="card">
+          <img
+            src="../Images/Tanisha.jpeg"
+            alt="Tanisha's Picture"
+            style="width: 100%"
+          />
+          <div class="card-text">
+            <h3><b>Tanisha Singh</b></h3>
+          </div>
+        </div>
+      </div>
+
+      <!-- Feeback  -->
+      <div class="feedback-container">
+        <div class="feedback">
+          <h2>Give Us Your Feedback To Improve Timely.</h2>
+        </div>
+
+        <div class="feedback-button-container">
+          <a href="feedback.html">Click here</a>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <!-- Creating a footer which contains Company-logo, Contact us, Quick Links, Social Media and Copyright Policy Section -->
+      <div class="container">
+        <!-- For Company Logo  -->
+        <div class="footer-content">
+          <div class="company-logo">
+            <img
+              src="../icons_images/hourglass-white.png"
+              alt="company-logo"
+              class="footer-company-logo"
+              style="height: 30px; width: 20px"
+            />
+            <div class="company-logo-first">
+              <h1 class="logo-content">TIMELY</h1>
+              <p class="logo-content-trademark">&trade;</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Us Section  -->
+        <div class="footer-content">
+          <h3>Contact Us</h3>
+          <p>Email: Timely24@gmail.com</p>
+          <p>Phone: 01-5970012</p>
+          <p>Address: Kamalpokhari streets</p>
+        </div>
+
+        <!-- Quick Links  -->
+        <div class="footer-content">
+          <h3>Quick Links</h3>
+          <div class="links"><a href="homepage.html">Home</a></div>
+          <div class="links"><a href="blogPage.html">Blog</a></div>
+          <div class="links"><a href="productPage.html">Product</a></div>
+          <div class="links"><a href="researchPage.html">Research</a></div>
+          <div class="links"><a href="Aboutus.html">About Us</a></div>
+        </div>
+
+        <!-- Social Media Section  -->
+        <div class="footer-content">
+          <h3>Follow Us</h3>
+          <div class="socials">
+            <a href="#"
+              ><img
+                src="../icons_images/facebook.png"
+                alt="fb-logo"
+                class="footer-socials-icons"
+            /></a>
+            <a href="#"
+              ><img
+                src="../icons_images/instagram.png"
+                alt="insta-logo"
+                class="footer-socials-icons"
+            /></a>
+            <a href="#"
+              ><img
+                src="../icons_images/twitter.png"
+                alt="twitter-logo"
+                class="footer-socials-icons"
+            /></a>
+            <a href="#"
+              ><img
+                src="../icons_images/linkedin.png"
+                alt="linkedin-logo"
+                class="footer-socials-icons"
+            /></a>
+          </div>
+        </div>
+
+        <!-- Copyright of Company  -->
+        <div class="bottombar">
+          <p>&copy; 2025 Timely. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
