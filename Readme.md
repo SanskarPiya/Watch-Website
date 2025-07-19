@@ -28,4 +28,4 @@ Simply open any HTML file in a modern web browser. All assets are linked with re
 
 For inquiries, feedback, or collaboration:
 
-- Developer Email: sanspiya915@gmail.com
+- Developer Linkedin: https://www.linkedin.com/in/sanskar-piya-799922316/
